@@ -5,7 +5,7 @@ import numpy as np
 
 # ── Fleet ─────────────────────────────────────────────────────────────────────
 ROBOT_IDS  = [0, 1]
-ROBOT_IPS  = {0: "192.168.0.151", 1: "192.168.0.152"}
+ROBOT_IPS  = {0: "192.168.0.151", 1: "192.168.0.152"} #add static IPs for respective robot IDs
 ROBOT_PORT = 80
 
 # Heading offsets measured with heading_test.py
