@@ -1,6 +1,8 @@
 # heading_test.py
-# ------------------------------------------------------------
 # Universal ArUco Debug Tool
+#
+#This file is not required for running the server. But when marker is originally printed, it is useful to see if all markers are detected.
+#Recommeded to have config.py file in the same folder as this file. But for Final Server, this file has no connection.
 #
 # Displays:
 #   • Marker name
@@ -11,7 +13,7 @@
 #   • Corrected heading
 #
 # Press Q to quit.
-# ------------------------------------------------------------
+
 
 import cv2
 import numpy as np
