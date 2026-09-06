@@ -13,6 +13,13 @@ All of the 8 server file should be in the same folder
 * `robot_comms.py` — Handles communication between the server and robots and sends movement and task commands.
 * `task_allocator.py` — Assigns objects to robots using the task allocation algorithm.
 
-OpenCV library used here is not the regular library. It is the User Contribution version. 
+OpenCV library used here is not the regular version. It is the User Contribution version. 
+
+## Libraries to install
+
+* **OpenCV-Contrib-Python** — Computer vision and ArUco marker detection
+* **NumPy** — Numerical and array operations
+* **Requests** — HTTP communication with the robots
+
 
 
