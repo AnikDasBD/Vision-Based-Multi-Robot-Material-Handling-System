@@ -1,5 +1,9 @@
-First upload code for mac address to the respective ESPs.
-Get the mac address from serial monitor and note it down.
-Set the mac address as static IP in the router settings and record it. 
-Finally upload the actual firmware, to the ESPs, no modification. Same Modular Firmware in every ESP.
-The Static IP should be then added in the Server/Config.py file to respective Robots
+# Firmware Instructions
+
+1. Install the **ArduinoJson** library.
+2. Upload the **MAC address code** to each ESP.
+3. Get the MAC address from the Serial Monitor and note it down.
+4. Set the MAC address as a **static IP** in the Wi-Fi router and note the assigned IP.
+5. Upload the **main modular firmware** to each ESP. No modification is required; use the same firmware for every ESP.
+6. Add the respective static IPs to `server/config.py`.
+
