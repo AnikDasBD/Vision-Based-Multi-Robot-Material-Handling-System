@@ -28,13 +28,13 @@
 #define D8 15
 
 // ===== WIFI CONFIG =====
-const char* ssid     = "RUETians";
-const char* password = "n2S7*&1TH5";
+const char* ssid     = " "; //Use your wifi name inside the inverted commas, no spaces. 
+const char* password = " ";//Use your wifi password inside the inverted commas, no spaces. 
 
 ESP8266WebServer server(80);
 
 // ===== PIN ASSIGNMENTS =====
-#define MAGNET_PIN D3   // GPIO0 — N-MOSFET gate via 4.7k, safe at boot
+#define MAGNET_PIN D3   // GPIO0 — N-MOSFET gate via 4.7k, must use resistor for safe boot
 
 #define AIN1 D1         // GPIO5
 #define AIN2 D2         // GPIO4
