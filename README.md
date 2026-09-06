@@ -10,7 +10,7 @@ A centralized vision-based multi-robot system for coordinated material handling 
 * A* path planning
 * Greedy nearest-object task allocation
 * Geometric inter-robot collision detection and avoidance
-* P-controller-based motion control
+* PD-controller-based motion control
 * HTTP POST and JSON communication between server and robots
 * Electromagnetic object handling
 * Watchdog-based motor safety
