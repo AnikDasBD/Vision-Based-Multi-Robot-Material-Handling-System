@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-main.py — Multi-robot swarm warehouse server.
+main.py — Multi-robot server.
 
 Runs N robots simultaneously (defined in config.ROBOT_IDS).
 Keys: [q] quit  [e] E-Stop all  [r] resume all
